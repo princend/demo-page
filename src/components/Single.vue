@@ -1,36 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="shortcut icon" href="favicon.png">
-
-  <meta name="description" content="" />
-  <meta name="keywords" content="bootstrap, bootstrap5" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-
-
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-
-  <link rel="stylesheet" href="css/tiny-slider.css">
-  <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="css/glightbox.min.css">
-  <link rel="stylesheet" href="css/style.css">
-
-  <link rel="stylesheet" href="css/flatpickr.min.css">
-
-
-  <title>Blogy &mdash; Free Bootstrap 5 Website Template</title>
-</head>
-<body>
-
+<template>
   <div class="site-mobile-menu site-navbar-target">
     <div class="site-mobile-menu-header">
       <div class="site-mobile-menu-close">
@@ -53,7 +21,6 @@
                 <input type="text" class="form-control" placeholder="Search...">
                 <span class="bi-search"></span>
               </form>
-
               <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
                 <li><a href="index.html">Home</a></li>
                 <li class="has-children active">
@@ -116,11 +83,8 @@
 
   <section class="section">
     <div class="container">
-
       <div class="row blog-entries element-animate">
-
         <div class="col-md-12 col-lg-8 main-content">
-
           <div class="post-content-body">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nam quas inventore, ut iure iste modi eos adipisci ad ea itaque labore earum autem nobis et numquam, minima eius. Nam eius, non unde ut aut sunt eveniet rerum repellendus porro.</p>
             <p>Sint ab voluptates itaque, ipsum porro qui obcaecati cumque quas sit vel. Voluptatum provident id quis quo. Eveniet maiores perferendis officia veniam est laborum, expedita fuga doloribus natus repellendus dolorem ab similique sint eius cupiditate necessitatibus, magni nesciunt ex eos.</p>
@@ -140,16 +104,11 @@
             <p>Temporibus quo dolore veritatis doloribus delectus dolores perspiciatis recusandae ducimus, nisi quod, incidunt ut quaerat, magnam cupiditate. Aut, laboriosam magnam, nobis dolore fugiat impedit necessitatibus nisi cupiditate, quas repellat itaque molestias sit libero voluptas eveniet omnis illo ullam dolorem minima.</p>
             <p>Porro amet accusantium libero fugit totam, deserunt ipsa, dolorem, vero expedita illo similique saepe nisi deleniti. Cumque, laboriosam, porro! Facilis voluptatem sequi nulla quidem, provident eius quos pariatur maxime sapiente illo nostrum quibusdam aliquid fugiat! Earum quod fuga id officia.</p>
             <p>Illo magnam at dolore ad enim fugiat ut maxime facilis autem, nulla cumque quis commodi eos nisi unde soluta, ipsa eius aspernatur sint atque! Nihil, eveniet illo ea, mollitia fuga accusamus dolor dolorem perspiciatis rerum hic, consectetur error rem aspernatur!</p>
-
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus magni explicabo id molestiae, minima quas assumenda consectetur, nobis neque rem, incidunt quam tempore perferendis provident obcaecati sapiente, animi vel expedita omnis quae ipsa! Obcaecati eligendi sed odio labore vero reiciendis facere accusamus molestias eaque impedit, consequuntur quae fuga vitae fugit?</p>
           </div>
-
-
           <div class="pt-5">
             <p>Categories:  <a href="#">Food</a>, <a href="#">Travel</a>  Tags: <a href="#">#manila</a>, <a href="#">#asia</a></p>
           </div>
-
-
           <div class="pt-5 comment-wrap">
             <h3 class="mb-5 heading">6 Comments</h3>
             <ul class="comment-list">
@@ -164,7 +123,6 @@
                   <p><a href="#" class="reply rounded">Reply</a></p>
                 </div>
               </li>
-
               <li class="comment">
                 <div class="vcard">
                   <img src="images/person_2.jpg" alt="Image placeholder">
@@ -175,7 +133,6 @@
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
                   <p><a href="#" class="reply rounded">Reply</a></p>
                 </div>
-
                 <ul class="children">
                   <li class="comment">
                     <div class="vcard">
@@ -187,8 +144,6 @@
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
                       <p><a href="#" class="reply rounded">Reply</a></p>
                     </div>
-
-
                     <ul class="children">
                       <li class="comment">
                         <div class="vcard">
@@ -200,7 +155,6 @@
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
                           <p><a href="#" class="reply rounded">Reply</a></p>
                         </div>
-
                         <ul class="children">
                           <li class="comment">
                             <div class="vcard">
@@ -219,7 +173,6 @@
                   </li>
                 </ul>
               </li>
-
               <li class="comment">
                 <div class="vcard">
                   <img src="images/person_1.jpg" alt="Image placeholder">
@@ -233,7 +186,6 @@
               </li>
             </ul>
             <!-- END comment-list -->
-
             <div class="comment-form-wrap pt-5">
               <h3 class="mb-5">Leave a comment</h3>
               <form action="#" class="p-5 bg-light">
@@ -249,7 +201,6 @@
                   <label for="website">Website</label>
                   <input type="url" class="form-control" id="website">
                 </div>
-
                 <div class="form-group">
                   <label for="message">Message</label>
                   <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
@@ -257,15 +208,11 @@
                 <div class="form-group">
                   <input type="submit" value="Post Comment" class="btn btn-primary">
                 </div>
-
               </form>
             </div>
           </div>
-
         </div>
-
         <!-- END main-content -->
-
         <div class="col-md-12 col-lg-4 sidebar">
           <div class="sidebar-box search-form-wrap">
             <form action="#" class="sidebar-search-form">
@@ -273,7 +220,6 @@
               <input type="text" class="form-control" id="s" placeholder="Type a keyword and hit enter">
             </form>
           </div>
-          <!-- END sidebar-box -->
           <div class="sidebar-box">
             <div class="bio text-center">
               <img src="images/person_2.jpg" alt="Image Placeholder" class="img-fluid mb-3">
@@ -290,7 +236,6 @@
               </div>
             </div>
           </div>
-          <!-- END sidebar-box -->  
           <div class="sidebar-box">
             <h3 class="heading">Popular Posts</h3>
             <div class="post-entry-sidebar">
@@ -331,8 +276,6 @@
               </ul>
             </div>
           </div>
-          <!-- END sidebar-box -->
-
           <div class="sidebar-box">
             <h3 class="heading">Categories</h3>
             <ul class="categories">
@@ -343,8 +286,6 @@
               <li><a href="#">Adventure <span>(14)</span></a></li>
             </ul>
           </div>
-          <!-- END sidebar-box -->
-
           <div class="sidebar-box">
             <h3 class="heading">Tags</h3>
             <ul class="tags">
@@ -364,12 +305,9 @@
           </div>
         </div>
         <!-- END sidebar -->
-
       </div>
     </div>
   </section>
-
-
   <!-- Start posts-entry -->
   <section class="section posts-entry posts-entry-sm bg-light">
     <div class="container">
@@ -425,7 +363,6 @@
     </div>
   </section>
   <!-- End posts-entry -->
-
   <footer class="site-footer">
     <div class="container">
       <div class="row">
@@ -433,7 +370,7 @@
           <div class="widget">
             <h3 class="mb-4">About</h3>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-          </div> <!-- /.widget -->
+          </div>
           <div class="widget">
             <h3>Social</h3>
             <ul class="list-unstyled social">
@@ -444,8 +381,8 @@
               <li><a href="#"><span class="icon-pinterest"></span></a></li>
               <li><a href="#"><span class="icon-dribbble"></span></a></li>
             </ul>
-          </div> <!-- /.widget -->
-        </div> <!-- /.col-lg-4 -->
+          </div>
+        </div>
         <div class="col-lg-4 ps-lg-5">
           <div class="widget">
             <h3 class="mb-4">Company</h3>
@@ -465,8 +402,8 @@
               <li><a href="#">FAQ</a></li>
               <li><a href="#">Creative</a></li>
             </ul>
-          </div> <!-- /.widget -->
-        </div> <!-- /.col-lg-4 -->
+          </div>
+        </div>
         <div class="col-lg-4">
           <div class="widget">
             <h3 class="mb-4">Recent Post Entry</h3>
@@ -507,44 +444,30 @@
                 </li>
               </ul>
             </div>
-
-
-          </div> <!-- /.widget -->
-        </div> <!-- /.col-lg-4 -->
-      </div> <!-- /.row -->
-
-      <div class="row mt-5">
-        <div class="col-12 text-center">
-
-
-            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; <a target="_blank" href="http://www.mobanwang.com" title="网页模板">网页模板</a>
-            </p>
           </div>
         </div>
-      </div> <!-- /.container -->
-    </footer> <!-- /.site-footer -->
-
-    <!-- Preloader -->
-    <div id="overlayer"></div>
-    <div class="loader">
-      <div class="spinner-border text-primary" role="status">
-        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 text-center">
+          <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; <a target="_blank" href="http://www.mobanwang.com" title="网页模板">网页模板</a></p>
+        </div>
       </div>
     </div>
+  </footer>
 
+  <!-- Preloader -->
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+</template>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/tiny-slider.js"></script>
+<script lang="ts" setup>
+// 目前暫無邏輯，後續可加入
+</script>
 
-    <script src="js/flatpickr.min.js"></script>
-
-
-    <script src="js/aos.js"></script>
-    <script src="js/glightbox.min.js"></script>
-    <script src="js/navbar.js"></script>
-    <script src="js/counter.js"></script>
-    <script src="js/custom.js"></script>
-
-    
-  </body>
-  </html>
+<style scoped>
+/* 可將對應 CSS 搬移進來 */
+</style> 

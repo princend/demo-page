@@ -12,12 +12,12 @@
 		jsCloneNavs.forEach(nav => {
 			var navCloned = nav.cloneNode(true);
 			navCloned.setAttribute('class', 'site-nav-wrap');
-			siteMobileMenuBody.appendChild(navCloned);
+			siteMobileMenuBody?.appendChild(navCloned);
 		});
 
 		setTimeout(function(){
 
-			var hasChildrens = document.querySelector('.site-mobile-menu').querySelectorAll(' .has-children');
+			var hasChildrens = document.querySelector('.site-mobile-menu')?.querySelectorAll(' .has-children');
 
 			var counter = 0;
 			hasChildrens.forEach( hasChild => {
@@ -68,7 +68,7 @@
 		var specifiedElement = document.querySelector(".site-mobile-menu");
 		var mt, mtoggleTemp;
 		document.addEventListener('click', function(event) {
-			var isClickInside = specifiedElement.contains(event.target);
+			var isClickInside = specifiedElement?.contains(event.target);
 			menuToggle.forEach(mtoggle => {
 				mtoggleTemp = mtoggle
 				mt = mtoggle.contains(event.target);
